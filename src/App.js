@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Cards from './components/Cards/Cards';
+import Card from './components/Card/Card';
 import { cards } from './components/CardList/CardList';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {cards.map((card, id) => {
         return (
-          <Cards key={id}
+          <Card key={id}
             title={card.title}
             price={card.price}
             info={card.info}

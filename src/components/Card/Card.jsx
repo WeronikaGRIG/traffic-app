@@ -1,5 +1,5 @@
 
-import './Cards.css';
+import './Card.css';
 
 // const cardTop = {
 //     backgroundColor: "var(--blue-dark)",
