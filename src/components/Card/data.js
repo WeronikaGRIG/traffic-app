@@ -38,6 +38,7 @@ const cards = [
         "backgroundColor": "#323232",
         "background": "#1e1e1e",
         "active": false
+
     }
 ]
 export { cards };

@@ -9,25 +9,3 @@
   padding: 0;
   text-align: center;
 }
-
-:root {
-  /* Color */
-  --black: #171717;
-  --white: #fff;
-
-  --blue: #3db7d5;
-  --blue-dark: #349eb9;
-
-  --green: #3dd581;
-  --green-dark: #32b06b;
-
-  --red: #d5593d;
-  --red-dark: #bd4f36;
-
-  --blackBg: #323232;
-  --blackBg-dark: #1e1e1e;
-
-  --grey: #cdcdcd;
-  --grey-dark: #404040;
-  --grey: #cdcdcd;
-}
