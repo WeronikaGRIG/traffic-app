@@ -1,11 +1,20 @@
-import { useState } from 'react';
+
+import { useState } from 'react'
 import styles from './CardList.module.css'
 
 export default function CardList({ title, price, info, desc, backgroundColor, background }) {
-    const [redBg, setredBg] = useState(0);
+
+    const [isHovering, setHovering] = useState(false)
+
+    const handleClick = () => {
+        setHovering(!isHovering);
+    };
+
 
     return (
-        <div className={styles.card}>
+        <div className={isHovering ? styles.card : styles.card__active}
+            onClick={handleClick}
+        >
             <div className={styles.card__top} style={{ backgroundColor }}>
                 <h3 className={styles.card__title} style={{ background }}>{title}</h3>
                 <div className={styles.card__price}><span> руб </span><strong>{price}</strong>  /мес</div>
