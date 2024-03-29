@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/traffic-app/static/css/main.685f56fe.css",
-    "main.js": "/traffic-app/static/js/main.0b1af987.js",
+    "main.css": "/traffic-app/static/css/main.8781e132.css",
+    "main.js": "/traffic-app/static/js/main.5f314177.js",
     "static/js/453.90651c7d.chunk.js": "/traffic-app/static/js/453.90651c7d.chunk.js",
     "index.html": "/traffic-app/index.html",
-    "main.685f56fe.css.map": "/traffic-app/static/css/main.685f56fe.css.map",
-    "main.0b1af987.js.map": "/traffic-app/static/js/main.0b1af987.js.map",
+    "main.8781e132.css.map": "/traffic-app/static/css/main.8781e132.css.map",
+    "main.5f314177.js.map": "/traffic-app/static/js/main.5f314177.js.map",
     "453.90651c7d.chunk.js.map": "/traffic-app/static/js/453.90651c7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.685f56fe.css",
-    "static/js/main.0b1af987.js"
+    "static/css/main.8781e132.css",
+    "static/js/main.5f314177.js"
   ]
 }
